@@ -21,7 +21,7 @@ Social Network per tenersi in contatto
 
 <======================>
 
-In questa Pre-Release v0.50-beta.1 trovi 🥇 
+# In questa Pre-Release v0.50-beta.1 trovi 🥇 
 
 4 nuovi vocabili riferenti alla lettera C
 Una pagina `index.html`
