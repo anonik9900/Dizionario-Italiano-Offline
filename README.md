@@ -13,10 +13,15 @@ Puoi contribuire anche tu 👍
 # Competenze Richieste:
 
 Conoscenza del linguaggio HTML5
+
 Conoscenza del linguaggio JavaScript (per chi volesse creare gli script)
+
 Conoscenza del linguaggio CSS (per chi volesse migliorare la grafica)
+
 Conoscenza del software Photoshop(per chi volesse migliorare la grafica)
+
 Account Github
+
 Social Network per tenersi in contatto
 
 <======================>
