@@ -1,0 +1,642 @@
+body {
+  background-image:url("texture-dizionario-italiano.jpg");
+  font-size:15px;
+  font-family:Verdana;
+  margin-top:0px;
+  padding-top:0px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  color:#402020;
+}
+
+#anchor{
+position: relative;
+padding-top:45px
+}
+
+.container {
+  background:#efefef;
+  width:1100px;
+  margin:auto;
+  margin-bottom:0px;
+  margin-top:0px;
+  overflow:auto;
+  z-index: 1; /**/
+}
+
+#myth1 > #myFlash{
+   width:25px !important;
+   height:20px !important;
+}
+
+#header {
+  width:1100px;
+  margin:0px;
+  top:0;
+  height:60px;
+  left:50%;
+  margin-left:-550px;
+  position:fixed;
+  /* position: relative; */
+  z-index: 8; /**/
+  background:#000099;
+  overflow:hidden;
+  text-align:left;
+}
+#container {
+   top: 60px /**/
+   position: absolute; /**/
+   /* margin-top:5px; */
+   width:100%;
+   max-width:1100px;
+}
+#footer {
+  width:auto;
+  /* min-height:50px; */
+  height:auto;
+  background:#000099;
+  color:white;
+  text-align:center;
+  font-size:1.0em;
+  overflow:hidden;
+  margin:0px;
+  padding:5px;
+}
+#content {
+  width:100%;
+  empty-cells:show;
+  table-layout:fixed;
+  margin-top:60px ; /*++*/
+}
+#left {
+  width:160px;
+  background:#EFEFEF;
+}
+#middle {
+  width:auto; /* 557 px; */
+  background:#EFEFEF;
+  padding:5px;
+  text-align:justify;
+}
+#right {
+  background:#EFEFEF;
+  width:300px;
+}
+
+#menu {
+  cursor:pointer;
+  position:relative;
+  float:right;
+  height:60px;
+  line-height:60px;
+  width:30px;
+  text-align:right;
+  font-weight:bold;
+  padding:0px 10px;
+  background:#000099;
+  font-size:30px;
+  color:white;
+  z-index: 9; /**/
+
+}
+#menu_content {
+  display:none;
+  position:static;
+  top:0px;
+  width:100%;
+  /* min-height:100px; */
+  margin-top:0px; /*-15-*/
+  padding-top: 65px;
+}
+#menu_content > ul {
+  list-style-type:none;
+  min-width:220px;
+  float:left;
+  margin:0px;
+  margin-bottom:10px;
+
+}
+#menu_content ul li {
+  display: inline;
+}
+#menu_content ul li a {
+  text-decoration: none;
+  color:#000050;
+  padding: .2em;
+}
+#menu::before {
+  content: "";
+  position:absolute;
+  right: 15px;
+  top: 20px;
+  width: 20px;
+  height: 5px;
+  background: white;
+  box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
+}
+
+.logo_title {
+  position: absolute;
+  font-family:Arial, Helvetica, Sans Serif;
+  margin-top:0px;
+  font-size:48px;
+  color:white;
+  margin-left:20px;
+  letter-spacing: 4px;
+}
+
+#logo_image{ /* new */
+position:relative;
+width:75px;
+height:48px;
+top:0px;
+left:5px;
+padding:5px 0 5px 0;
+margin:1;
+float:left;
+}
+.clear{     /* new */
+   clear:both;
+}
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:1) { #body{ font-size:180% }}
+
+*/
+
+#ads_left {
+  max-width:320px;
+  text-align:center;
+  margin:auto 6px auto auto;
+  float:left;
+}
+#ads_right {
+  max-width:336px;
+  text-align:center;
+  margin:auto auto 5px 5px;
+  float:right;
+}
+
+#myth {
+   min-height:250px;
+}
+
+#myth1 {
+   min-height:250px;
+}
+
+#myth2 {
+   min-height:auto;
+}
+
+/* <div> appearing on mouseover */
+#hover-content {
+   display:none;
+}
+#hover-me:hover #hover-content {
+   display:block;
+}
+
+/* Responsive tables */
+.section {              /*  SECTIONS  */
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+   padding-bottom:10px;
+}
+
+.col {                  /*  COLUMN SETUP  */
+	display: block;
+	float:left;
+	margin: 1% 0 .5% .5%;
+   padding: 0px;
+}
+
+.col2 {                  /*  COLUMN SETUP  */
+	display: block;
+	float:left;
+	margin: 0px;
+   padding: 0px;
+}
+
+.fir{
+   display:none !important;
+}
+
+.sec{
+   width:100%;
+}
+
+.col:first-child { margin-left: 0; }
+.group:before,          /*  GROUPING  */
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span_title{width:20%;}
+.span_2_of_2 {          /*  GRID OF TWO  */
+	width: 40%;
+}
+
+.span_3_of_3 {          /*  GRID OF THREE  */
+	width: 33.3%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+.blocklist{
+   width: 99%;
+   border: 1px solid #000099;
+   padding: 5px !important;
+   margin:20px 100px 0px 0px !important;
+}
+
+.tb{
+	width: 103.5%;
+}
+
+.tb2{
+	width: 102%;
+}
+
+.bord-top{
+   border-left: 1px solid #000099;
+   border-bottom: 1px solid #000099;
+   border-top: 1px solid #000099;
+   border-top-left-radius: 6px !important;
+}
+
+.bord-masc{
+   border-bottom: 1px solid #000099;
+   border-top: 1px solid #000099;
+}
+
+.bord-femm{
+   border-right: 1px solid #000099;
+   border-bottom: 1px solid #000099;
+   border-top: 1px solid #000099;
+   border-top-right-radius: 6px !important;
+   width:100% !important;
+}
+
+@media only screen and (max-width: 700px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+	.span_2_of_2, .span_1_of_2 , .span_3_of_3 { width: 100%; }
+   .blocklist{
+      width:90%;
+      margin: 10px !important;
+   }
+   .fir{
+      display:block !important;
+      width:40%;
+   }
+   
+   .sec{
+      width:60%;
+   }
+   
+   .sec-top{
+      padding-top:20px;
+   }
+   
+   .span_title{display:none;}
+   
+   .tb{
+		width: 100%;
+   }
+   
+	.tb2{
+      width: 100%;
+   }
+   
+	.efef{
+      height:0px;
+   }
+   
+   .bord-top{
+      border-left: 1px solid #000099;
+      border-top: 1px solid #000099;
+      border-top-left-radius: 0px !important;
+   }
+   
+   .bord-masc{
+      border-top: 1px solid #000099;
+      border-bottom: 0px;
+      border-right: 1px solid #000099;
+      border-left: 1px solid #000099;
+      border-top-right-radius: 7px !important;
+      border-top-left-radius: 7px !important;
+      width:98% !important;
+   }
+   
+   .bord-femm{
+      border-right: 1px solid #000099;
+      border-bottom: 1px solid #000099;
+      border-top: 1px solid #000099;
+      border-left: 1px solid #000099;
+      border-top-right-radius: 0px !important;
+      width:98% !important;
+   }
+}
+
+/* zebra tables */
+#zebra tbody tr:nth-child(odd) { background-color: #ccc; }
+
+/* Site specific elements */
+a:link {text-decoration:underline; color:#161660;}
+a:visited {text-decoration:underline; color:#161660;}
+a:hover {text-decoration:underline; color:#FF0000;}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul li {
+  padding-left:15px;
+  text-indent: -1em;
+}
+li:before { content: "– "; position:relative;}
+
+blockquote {
+ margin:0 20px 0 20px;
+ border:1px;
+ padding:10px;
+ margin-bottom:10px;
+ border-style:solid;
+ font-size:18px;
+ font-style:italic;
+ font-family:serif;
+ text-align:justify;
+}
+
+blockquote.warn{
+ margin:0;
+ background-color:#C0C0C0;
+ border:2px;
+ padding:10px;
+ margin-bottom:10px;
+ border-style:solid;
+ border-color:#000099;
+ font-size:18px;
+ font-style:italic;
+ font-family:serif;
+
+}
+
+#cleft{ float: left; width: 33%; }
+#cright{ float: right; width: 33%; }
+#ccenter{ display: inline-block; width: 33%; }
+
+
+.piccolo      {font-family: Verdana, Arial, Helvetica; font-size: 8pt; color: navy;     font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+
+/* Google hidden code 
+.adslot_1 { display:inline-block; width: 160px; height: 600px; }
+@media (max-width: 700px) { .adslot_1 { display: none; } }
+
+.adslot_2 { display:inline-block; width: 160px; height: 600px; }
+@media (min-width:500px) { .adslot_2 { display: none; } }
+@media (min-width:400px) { .adslot_2 { display: none; } }
+*/
+/* Stili di composizione del testo */
+.esempi       {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 0.9em; color: #505050; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.testo        {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1em; color: #000066; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.aiuto        {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 09.em; color: #006600; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.radice 	     {color: #000000; font-weight: bold}
+.desinenza 	  {color: #009900; font-weight: bold}
+.eccezioni    {font-size: 11pt; color: #FF0000; font-weight: normal; font-style: italic;}
+.lemma		  {font-family: Palatino Linotype, Times, Times New Roman, Verdana, Noto Serif, Ubuntu Regular, DejaVu Serif, Liberation Serif; font-size: 2.5em; color: #000099; font-weight: bold;}
+.paradigma    {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 0.8em; color: #000099; font-weight: 300;}
+.disambigua	  {font-size: 0.8em; color: #000000; font-weight: normal; font-style: italic;}
+.grammatica   {font-size: 0.9em; color: #006600; font-style: italic;}
+.articolo     {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1em; color: #000066; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.etimo        {font-size: 0.9em; color: #000000;}
+.ausiliare    {font-size: 0.9em; color: #FF0000;}
+.autore       {font-size: 0.9em; color: #000099; font-variant:small-caps ;transform:capitalize}
+.registro     {font-size: 0.9em; color: #991A91;}
+.frequenza    {font-size: 0.9em; color: #870400;}
+.modo         {font-size: 0.9em; color: #0057A6;}
+.lingua       {font-size: 0.9em; color: #0000FF;}
+.ambito       {font-size: 0.9em; color: #009E0F; font-variant:small-caps ;transform:capitalize}
+.paradigma    {font-size: 0.9em; color: #000000;}
+.italiano     {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1em; color: #000000; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.cit_ita_1    {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1.1em; color: #004796; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.cit_ita_2    {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1.1em; color: #C02000; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.br_italiano  {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1.3em; color: #000080; font-weight: normal; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+h1,h2,h3,h4,h5   {margin:0 0 0 0px; color:#000099;}
+
+/*Verb*/
+.tempo        {font-size: 1.0em; color: #FFFFFF; font-weight:bold; }
+.verbo        {font-family: Microsoft Sans Serif, Helvetica, Arial, Noto Sans, Ubuntu Regular, DejaVu Sans, Liberation Sans; font-size: 1.3em; color: #FFFFFF; font-weight: bold; font-style: normal; line-height: normal; font-variant: normal; text-transform: none; text-decoration: none}
+.modo_verb{font-size: 1.1em; color: #FFFFFF; font-weight:bold; }
+
+.btn-green{
+
+  background-color: #008000; /* Green */
+  border: none;
+  color: #FFF !important;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+
+.btn-green:hover{
+
+  background-color: #179a39;
+
+}
+
+
+/*1100*/
+@media screen and (max-width: 1100px) {
+  #body{padding:0;margin:0; }
+  #content{ margin-top:50px }
+  #menu_content {margin-top:12px; }
+  #header { width:100%; margin:0px; left:0px; }
+  #container{ width: 100%;margin-top:9px;border:none; }
+  #scritta_menu { display:none; }
+  .logo_title {font-size:48px !important; }
+  #ads_right {float:right; margin-left:3px; max-width:300px}
+}
+
+
+/*768x1024 - Landscape*/
+@media screen and (max-width: 800px) and (max-height:1080px) {
+  #body{padding:0;margin:0; }
+   #content{ margin-top:50px }
+   #menu_content {margin-top:12px; }
+   #header { width:100%; margin:0px; left:0px; }
+   #container{ width: 100%;margin-top:9px;border:none; }
+   #scritta_menu { display:none; }
+   .logo_title {font-size:48px !important; }
+   #ads_right {float:right; margin-left:3px;}
+   #right{ width:160px;}
+   .blocklist{
+      width: 95%;
+   }
+}
+
+/*600x800 portrait*/
+@media screen and (max-width: 700px) {
+  #body{padding:0;margin:0;}
+  #content{ margin-top:50px }
+  #menu_content {margin-top:30px; }
+  #header { width:100%; margin:0px; left:0px; }
+  #right { width:160px; }
+  #container { width: 100%; margin-top:9px; border:none; }
+  #scritta_menu { display:none; }
+  .logo_title {font-size:36px !important;}
+  /*#myth {min-height:0px;}*/
+  #myth { min-height: 250px;}
+  #ads_right {float:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+  #ads_left {float:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+  .adslot_1 { width:160px; height:600px;}
+  
+  #wrapper {
+   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+   
+   flex-direction: column; /* For vertical placement of items */
+  }
+  
+  #ads_right {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  #ads_left {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  
+  #ads_center {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  
+  #ads_top{
+   height :100px !important;
+   vertical-align: top;
+   overflow:hidden;
+  }
+}
+
+/*320/360x640 landascape*/
+@media screen and (max-width:660px) and (max-height:780px) {
+  #body{padding:0;margin:0;font-size:110%}
+  #content{ margin-top:50px}
+  #header { width:100%; margin:0px; left:0px; }
+  #menu_content {margin-top:50px;}
+  #scritta_menu { display:none; }
+  #middle,#right { display:block;width:100%;}
+  #soc_but { display:block; text-align:center;  vertical-align:middle;}
+  #container{ width: 100%;margin-top:9px;border:none; }
+  .logo_title {font-size:32px !important;}
+  #ads_right {float:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+  #ads_left {float:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+  .adslot_1 { width:300px; height:250px;}
+  /* Google hidden code */
+  .adslot_2 { display:none;}
+  #right { display:none;}
+  /* #right { display:none;} */
+}
+
+/*320/360x480 landscape */
+@media screen and (max-width:500px) and (max-height:370px) {
+  #body{padding:0;margin:0;font-size:120%}
+  #content{ margin-top:50px}
+  #header { width:100%; margin:0px; left:0px; }
+  #menu_content {margin-top:50px;}
+  #middle,#right { display:block;width:100%;}
+  #pag {display:block; }
+  #scritta_menu { display:none; }
+  #container{ width: 100%;margin-top:9px;border:none; }
+  .logo_title {font-size:24px !important;}
+  .adslot_1 { width:300px; height:250px;}
+  /* Google hidden code */
+  .adslot_2 { display:none;}
+  #right { display:none;}
+}
+
+/*320/360 portrait*/
+@media screen and (max-width:420px) {
+  #body{padding:0;margin:0;font-size:110%;width:100%;}
+  #content{ margin-top:50px}
+  #header { width:100%; margin:0px; left:0px; }
+  #menu_content {margin-top:50px;}
+  #pag {display:block; }
+  #scritta_menu { display:none; }
+  #middle,#right { display:block;width:100%;}
+  #container{ width: 100%;margin-top:9px;border:none; }
+  .logo_title {font-size:20px !important;}
+  /*#myth {min-height:0px;}*/
+  #myth { min-height: 250px;}
+  .adslot_1 { width:300px; height:250px;}
+  #ads_right { float:none!important; margin-right:auto; margin-left:auto;margin-top:20px;}
+  #ads_left {float:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+  
+  #wrapper {
+   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+   
+   flex-direction: column; /* For vertical placement of items */
+  }
+  
+  #ads_right {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  #ads_left {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  
+  #ads_center {
+   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+   -ms-flex-order: 2;              /* TWEENER - IE 10 */
+   -webkit-order: 2;               /* NEW - Chrome */
+   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  
+  #ads_top{
+   height :100px !important;
+   vertical-align: top;
+   overflow:hidden;
+  }
+  
+
+   /* Google hidden code */
+  .adslot_2 { display:none;}
+  #right { display:none;}
+}
