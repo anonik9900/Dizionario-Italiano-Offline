@@ -10,7 +10,7 @@ Il primo dizionario italiano completamente offline e gratis
 Puoi contribuire anche tu 👍 
 
 <====================>
-Competenze Richieste:
+# Competenze Richieste:
 
 Conoscenza del linguaggio HTML5
 Conoscenza del linguaggio JavaScript (per chi volesse creare gli script)
