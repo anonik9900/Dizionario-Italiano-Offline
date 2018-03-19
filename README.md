@@ -65,6 +65,10 @@ Alcune migliorie al codice per `index.html`
 
 Il pulsante per le donazioni all'interno della pagina `About.html`
 
-# LIVE DEMO
+# LIVE DEMO OLD
 
 http://dizionarioex.altervista.org/index.html
+
+# LIVE DEMO NEW
+
+http://dizionariooffline.altervista.org/
