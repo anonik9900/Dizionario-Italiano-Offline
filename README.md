@@ -26,7 +26,22 @@ Social Network per tenersi in contatto
 
 <======================>
 
-In questa Pre-Release v0.62-beta.2 trovi 🥇 
+In questa Pre-Release v0.70-beta.3 trovi 🥇 
+
+Una nuova versione di Dizionario Offline
+
+Grafica Semplice
+
+Più di `50.000` Vocabili
+
+Nuova Pagina `index.htm`
+
+Nuovi file all'interno di `/Dizionario Offline New`
+
+Nuovo `Index.html` Principale
+
+-------------------------------------------------------------------------------------------------------------------------
+Nella cartella `/Dizionario Offline` trovi:
 
 4 nuovi vocabili riferenti alla lettera C
 
