@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1505930726 source:c:\users\nicholas impieri\desktop\{dev}\cd\dizionariooffline\dizoffline.c
+
+1522005102 source:c:\users\nicholas impieri\desktop\{dev}\cd\dizionariooffline\dizofflines.cpp
+	<iostream>
+	<string>
+
