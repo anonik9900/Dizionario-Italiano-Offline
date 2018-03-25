@@ -240,7 +240,7 @@ intro:
         cout<<endl;
         cout<<"1) Guardare il file support.txt per capire quali vocaboli sono supportati"<<endl;
         cout <<endl;
-        cout<<"2) Per le lettere accentate inserire l'apostofro esempio :(è lo dovete scrivere cosi = e')"<<endl;
+        cout<<"2) Per le lettere accentate inserire l'apostrofo esempio :(è lo dovete scrivere cosi = e')"<<endl;
         cout <<endl;
         cout<<"3) Da usare solo con Windows Xp/Vista/7 e 10"<<endl;
         cout<<endl;
