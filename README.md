@@ -20,6 +20,8 @@ Conoscenza del linguaggio CSS (per chi volesse migliorare la grafica)
 
 Conoscenza del software Photoshop(per chi volesse migliorare la grafica)
 
+Conoscenza del linguaggio C++ (per migliorare la versione App)
+
 Account Github
 
 Social Network per tenersi in contatto
